@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qrig.org group archive</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f3f4f6;
+            background-image: url('https://qrig.org/wp-content/themes/qrig/images/body-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0.5em 0;
+        }
+
+        p {
+            margin: 1em 0;
+            font-size: 1.2em;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+
+        ul {
+            text-align: left;
+            margin-top: 1.5em;
+            padding: 0;
+            list-style: none;
+        }
+
+        li {
+            margin-bottom: 1em;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>qrig.org group archive</h1>
+        <p>Click below to download the latest version of the qrig.org group archive.</p>
+        <h2>Extracting messages.mbox.bz2</h2>
+        <ul>
+            <li><b>Windows:</b> Install a tool like <a href="https://www.7-zip.org/">7-Zip</a>. Right-click the downloaded <code>messages.mbox.bz2</code> file, select <i>7-Zip > Extract to</i>, and choose or create a new folder for extraction.</li>
+            <li><b>Mac:</b> Double-click the <code>messages.mbox.bz2</code> file to automatically extract it to the same folder. If it doesn't work, use Terminal: navigate to the file's directory and run <code>bunzip2 -k messages.mbox.bz2</code> to extract it.</li>
+            <li><b>Linux:</b> Open a terminal, navigate to the folder containing <code>messages.mbox.bz2</code>, and run <code>bunzip2 -k messages.mbox.bz2</code>. The extracted file will be in the same directory.</li>
+        </ul>     
+        <h2>Installation Instructions for Mozilla Thunderbird</h2>
+        <ul>
+            <li><b>Windows:</b> Download the Thunderbird installer from the <a href="https://www.thunderbird.net">official website</a>. Run the installer and follow the on-screen instructions to complete the installation.</li>
+            <li><b>Mac:</b> Visit the <a href="https://www.thunderbird.net">official Thunderbird website</a>. Download the macOS version, open the .dmg file, and drag Thunderbird into your Applications folder.</li>
+            <li><b>Linux:</b> Use your distribution's package manager to install Thunderbird (e.g., <code>sudo apt install thunderbird</code> on Ubuntu/Debian or <code>sudo dnf install thunderbird</code> on Fedora). Alternatively, download the tar.bz2 file from the <a href="https://www.thunderbird.net">official website</a>, extract it, and run the executable.</li>
+        </ul>
+        <h2>Import Instructions for Mozilla Thunderbird</h2>
+        <ul>
+            <li><b>Windows:</b> Install the "ImportExportTools NG" add-on. Go to <i>Tools > ImportExportTools NG > Import mbox file</i>, and select the downloaded .mbox file.</li>
+            <li><b>Mac:</b> Install "ImportExportTools NG" from Thunderbird Add-ons. Navigate to <i>Tools > ImportExportTools NG > Import mbox file</i>, then locate and open the .mbox file.</li>
+            <li><b>Linux:</b> Add the "ImportExportTools NG" extension. Access <i>Tools > ImportExportTools NG > Import mbox file</i>, and import your file.</li>
+        </ul>
+    </div>
+</body>
+</html>
+
